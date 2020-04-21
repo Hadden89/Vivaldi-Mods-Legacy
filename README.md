@@ -19,3 +19,4 @@ The custom.css is tailored around my Vivaldi installation. However most the code
 * Jvascript are usually taken from other users you can find the useful links and [credits](https://github.com/Hadden89/Vivaldi_mods/blob/master/Javascript_mods.md) here ;)
 * Sync2toolbar.js is made for vertical tabs only! **Won't work with** tabs on top/bottom!
 * Status bar on top mod made with the help of [potmeklecbohdan](https://forum.vivaldi.net/user/potmeklecbohdan)
+* Vbutton.js is made with the help of [Luetage](https://github.com/luetage/vivaldi_modding/), tnx dude =)
