@@ -1,11 +1,12 @@
 ## My favourite JS mods 
-- Add to adblocker.js
+- [Add to (Native) Adblocker](https://forum.vivaldi.net/topic/45735/click-to-add-blocking-list)
 - [Backup Search Enginess](https://github.com/luetage/vivaldi_modding/blob/master/backup-search-engines.js)
-- Buttonclass.js
+- [Buttons clasess](https://forum.vivaldi.net/topic/36028/class-name-buttons?page=1)
 - [Custom toolbar for webpanels](https://forum.vivaldi.net/topic/45812/custom-toolbar-for-web-panels)
 - [Historyclock](https://github.com/luetage/vivaldi_modding/blob/master/history-clock.js)
 - [Import Export themes](https://github.com/luetage/vivaldi_modding/blob/master/import-export_themes.js)
 - [Inject Mods](https://forum.vivaldi.net/topic/30679/mod-loader-for-vivaldi)
+- [Jdhooks](https://github.com/justdanpo/VivaldiHooks)
 - [Move Vivaldi Button to toolbar](https://forum.vivaldi.net/topic/45349/solved-move-vivaldi-button-on-main-toolbar-left-right) 
 - [Markdown Buttons](https://github.com/sjudenim/Mods-for-Vivaldi/blob/master/markdown-toolbar.js) 
 - [Panel Actions](https://github.com/LonMcGregor/VivaldiMods/blob/master/mods/panel_actions.js)
