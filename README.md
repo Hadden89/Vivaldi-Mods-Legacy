@@ -15,7 +15,7 @@ The custom.css is tailored around my Vivaldi installation. However most the code
 
 
 # Credits
-Some parts are made from other community members. While usually the modding code is Public Domain I will credit them for the code (and for the help!).
-* The javascript is usually taken from other users you can find the [credits](https://github.com/Hadden89/Vivaldi_Mods/blob/master/Javascript_Mods.md) here ;)
 * Addressfield progress bar made by @raed (Vivaldi community user) which don't seems to be on the forum anymore
+* Jvascript are usually taken from other users you can find the useful links and [credits](https://github.com/Hadden89/Vivaldi_mods/blob/master/Javascript_mods.md) here ;)
+* Sync2toolbar.js is made for vertical tabs only! **Won't work with** tabs on top/bottom!
 * Status bar on top mod made with the help of [potmeklecbohdan](https://forum.vivaldi.net/user/potmeklecbohdan)
