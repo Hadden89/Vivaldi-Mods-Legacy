@@ -11,7 +11,8 @@ You agree to use anything contained here at your own risk.
 # Custom.css Readme
 Currently updated on [Vivaldi 3.0 RC3](https://forum.vivaldi.net/topic/45884/vivaldi-3-0-rc-3-vivaldi-desktop-browser-snapshot-1874-22?page=1)
 
-The custom.css is tailored around my Vivaldi installation. However most the code is meant to be universal. Just take the parts you need.
+The custom.css is tailored around my Vivaldi installation. However most the code is meant to be universal. 
+Ask to [modding community](https://forum.vivaldi.net/category/52/modifications) if you need help.
 
 
 # Credits
