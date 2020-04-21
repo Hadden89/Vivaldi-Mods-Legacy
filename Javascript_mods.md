@@ -1,16 +1,15 @@
 ## My favourite JS mods 
 - Add to adblocker.js
-- [Backup Search Engines.js](https://github.com/luetage/vivaldi_modding/blob/master/backup-search-engines.js)
+- [Backup Search Enginess](https://github.com/luetage/vivaldi_modding/blob/master/backup-search-engines.js)
 - Buttonclass.js
 - [Custom toolbar for webpanels](https://forum.vivaldi.net/topic/45812/custom-toolbar-for-web-panels)
-- [Historyclock.js](https://github.com/luetage/vivaldi_modding/blob/master/history-clock.js)
-- [Import Export themes.js](https://github.com/luetage/vivaldi_modding/blob/master/import-export_themes.js)
-- [Move Vivaldi Button to toolbar.js](https://forum.vivaldi.net/topic/45349/solved-move-vivaldi-button-on-main-toolbar-left-right) 
-- [Markdown Buttons.js](https://github.com/sjudenim/Mods-for-Vivaldi/blob/master/markdown-toolbar.js) 
-- [Panel Actions.js](https://github.com/LonMcGregor/VivaldiMods/blob/master/mods/panel_actions.js)
-- Session panel.js
-- Syncmove.js
-- Vbutton.js
+- [Historyclock](https://github.com/luetage/vivaldi_modding/blob/master/history-clock.js)
+- [Import Export themes](https://github.com/luetage/vivaldi_modding/blob/master/import-export_themes.js)
+- [Inject Mods](https://forum.vivaldi.net/topic/30679/mod-loader-for-vivaldi)
+- [Move Vivaldi Button to toolbar](https://forum.vivaldi.net/topic/45349/solved-move-vivaldi-button-on-main-toolbar-left-right) 
+- [Markdown Buttons](https://github.com/sjudenim/Mods-for-Vivaldi/blob/master/markdown-toolbar.js) 
+- [Panel Actions](https://github.com/LonMcGregor/VivaldiMods/blob/master/mods/panel_actions.js)
+- [Session panel](https://forum.vivaldi.net/topic/28102/advanced-panels-mod-with-sessions-panel)
 - [Zoom controls](https://forum.vivaldi.net/topic/44724/zoom-controls-in-address-bar-with-slide-out-animation?page=1)
 
 ## Vivaldi users|modders you *should* follow ;)
