@@ -13,7 +13,7 @@
 - [Session panel](https://forum.vivaldi.net/topic/28102/advanced-panels-mod-with-sessions-panel)
 - [Zoom controls](https://forum.vivaldi.net/topic/44724/zoom-controls-in-address-bar-with-slide-out-animation?page=1)
 
-## Vivaldi users|modders you *should* follow ;)
+## Vivaldi users|modders you should follow ;)
 * https://github.com/tiosgz/vivaldi-mods
 * https://github.com/luetage/vivaldi_modding
 * https://github.com/sjudenim/Mods-for-Vivaldi
@@ -22,3 +22,4 @@
 * https://github.com/justdanpo/VivaldiHooks
 * https://github.com/Christoph142
 * https://github.com/Sporif
+* https://github.com/An-dz
