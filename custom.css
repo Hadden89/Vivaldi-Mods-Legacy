@@ -20,19 +20,10 @@ input[type=checkbox], input[type=radio] {border-color: var(--colorBorderHighligh
 #browser ::-webkit-scrollbar-thumb:hover,
 #browser ::-webkit-scrollbar-thumb:active {background-color: var(--colorHighlightBg) !important;}
 
-/* UI: Vivaldi Settings Mods */
-/* Dynamic passwords box*/
-.saved-passwords .header, .saved-passwords .password_list {max-width: 200%;}
-.selectbox .selectbox-image {border-color: var(--colorBorderHighlight);}
-select[multiple]:focus option:checked,
-select[size]:focus option:checked { /*gestures*/
-  color: var(--colorHighlightFg);
-  background: linear-gradient(var(--colorHighlightBgDark), var(--colorHighlightBgDark));
-}
 .vivaldi-settings .info {font-size: var(--FontSize);} /* Bigger info text */
 
 /* UI: Vivaldi://themecolors fixes */
-.theme-test {zoom: 160%;} /*this page should be resizable */
+.theme-test {zoom: 155%;} /*this page should be resizable */
 .theme-test input {
   color: var(--colorFg) !important;
   background-color: var(--colorBg) !important;
@@ -189,12 +180,10 @@ transparent);
 #tabs-container .favicon {background: white; transform: scale(1.3) !important;}
 .spinner {filter: invert(1); background: none !important;} 
 
-/* Tabs: Remove this on 2.12 (with updated vbutton) */
-#tabs-container.right, #tabs-container.left {
-	background-image: url("chrome://vivaldi-data/local-image/1fb732ca-4f20-4472-9fbf-877e9005fc7b");
-}
+/* Tabs: Workaround for missing window image */
+#browser {background-color: rgba(0, 0, 0, 0.5);} 
 
-/* Tabs: Window image on a dark theme could cause "transparent tabs" */
+/* Tabs: Workaround: Window image on a dark theme cause "transparent buttons|tabs" */
 .tab-position .tab.active .tab-header {background-color: inherit;}
 .tab-position .tab .tab-header, 
 .button-toolbar.newtab {background-color: rgba(0, 0, 0, 0.81);}
@@ -212,14 +201,6 @@ transparent);
 }
 #tabs-container.right .tab-position .tab .title,
 #tabs-container.left .tab-position .tab .title {-webkit-mask-image: none;} 
-
-/* Tabs > Previews: Smaller preview + thumb: must repect original width */
-#vivaldi-tooltip .tooltip .tooltip-item {margin: 1px; width: calc(222px/1.43);}
-#vivaldi-tooltip .tooltip .tooltip-item .thumbnail-image {height: calc(160px/1.5);}
-
-/* Tabs > Previews: Fix for right&bottom */
-.tabs-right ~ #vivaldi-tooltip .tooltip .tooltip-item {width: 222px;} /*226 on latest*/
-.tabs-bottom ~ #vivaldi-tooltip .tooltip .tab-group .tooltip-item:hover {top: -10px;}
 
 /* Tabs > Previews: Highlight on mouseover */
 #vivaldi-tooltip .tooltip .tab-group .tooltip-item:hover {
