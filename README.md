@@ -9,9 +9,10 @@ You agree to use anything contained here at your own risk.
 
 
 # Custom.css Readme
-Currently updated on [Vivaldi 3.0 RC3](https://forum.vivaldi.net/topic/45884/vivaldi-3-0-rc-3-vivaldi-desktop-browser-snapshot-1874-22?page=1)
+Updated on [Vivaldi 3.0.1874.27 (Post-RC)](https://forum.vivaldi.net/topic/45884/vivaldi-3-0-rc-3-vivaldi-desktop-browser-snapshot-1874-22?page=1). Will work on [Vivaldi Stable](https://vivaldi.com/download/) too ;)
 
-The custom.css is tailored around my Vivaldi installation. However most the code is meant to be universal. 
+The custom.css is tailored around my Vivaldi installation. 
+However most the code is meant to be universal. 
 Ask to [modding community](https://forum.vivaldi.net/category/52/modifications) if you need help.
 
 
