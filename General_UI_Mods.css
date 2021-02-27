@@ -1,0 +1,59 @@
+/* ALLY: Make borders to use the higlight color */
+.cardview input[type=text], .cardview textarea,
+button, input, select, textarea,
+.button-toolbar > button,
+input[type=button], input[type=submit]
+input[type=date], input[type=time],
+input[type=text], input[type=search],
+input[type=url], input[type=email],
+input[type=password], input[type=number],
+input[type=checkbox], input[type=radio] {border-color: var(--colorBorderHighlight);}
+.theme-dark input[type=checkbox], .theme-dark input[type=radio],
+.webpage-button {border-color: var(--colorBorderHighlight) !important;} 
+.button-toolbar > button:disabled  {border-color: var(--colorBorderHighlight); opacity: .7;}
+
+/* ALLY: Bigger and easier to read vivaldi://themecolors */
+.theme-test {zoom: 150%;} /* please add a zoom button there */
+.theme-test input {
+  color: var(--colorFg) !important;
+  background-color: var(--colorBg) !important;
+  border: 1px solid var(--colorBorderHighlight) !important;
+}
+/* Hide header when tabs aren't on top BUT... */
+#browser.native:not(.tabs-top) #header {display: none;} 
+
+/* ...show it when UI is NOT native (eg: Guest Profiles) */
+#browser:not(.native) #header {display: block;} 
+
+/* Status Bar On Top Mod */ 
+#header {order: -1;} 
+.toolbar-statusbar {order: -1; border: none !important;} 
+.toolbar-statusbar {background: var(--colorAccentBg);}
+#panels-container .toolbar-statusbar {background: initial;} /*for panel mod*/
+.button-popup {
+    bottom: unset !important;
+    top: 32px;
+    border-radius: 3px;
+}
+.button-popup-arrow--above:before {bottom: unset !important;}
+.button-popup:before {
+    top: -20px;
+    bottom: unset !important;
+    margin-left: 0 !important;
+    transform: rotate(180deg) translateX(calc(10px - var(--popupLeftOffset)));
+}
+.button-popup-arrow--light:before {
+    border-top-color: var(--colorBg);
+    border-bottom-color: var(--colorBg);
+}
+.button-popup-arrow--light--above:after {
+    border-top-color: var(--colorBgDark);
+    border-top: 10px solid var(--colorBgDark);
+}
+.button-popup .button-popup-wrapper {height: fit-content;}
+
+.button-popup h2 {text-align: center}
+
+.button-popup-wrapper {background-color: var(--colorBgDark);}
+.button-toolbar>button>span+.button-title,
+.button-toolbar>button.button-textonly {padding-top: 2px}

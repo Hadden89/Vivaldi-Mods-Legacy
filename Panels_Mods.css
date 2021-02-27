@@ -1,0 +1,26 @@
+/* Add a bit of customization to the flat panel */
+#switch {
+  background-image: url(./res/hcomb_light.png);
+  background-size: 50%;
+}
+.theme-dark #switch { /*need*/
+  background-image: url(./res/hcomb_dark.png);
+  background-size: 50%;
+}
+#switch > button, .addwebpanel-wrapper {
+  background-color: var(--colorBgAlpha);
+}
+#switch button.preferences {margin-top: 0;} /* Gear icon after plus button */
+
+/* Hide tex header on internal panels but... */
+.panel > header h1 {display: none;} 
+/*.panel > header {padding-top: 0; padding-bottom: 0;}*/
+.webpanel-header h1 {display: initial !important;} /* ...show it on webpanels */
+
+/* Hide preview|nickname|description  */
+#panels .manager-editor .upper-half .preview,
+#panels .manager-editor .upper-half .cardview.nickname,
+#panels .manager-editor .lower-half .fieldset.resizable {display: none;}
+
+/* Bigger&centered window panel dot (value may change on UI size) */
+#window-panel .vivaldi-tree .title.active:before {transform: scale(2); transform-origin: 0 60%;}

@@ -1,0 +1,49 @@
+/* ALLY: Taller [classic] tab stack indicator *//* Ignored for some awkard reason*/
+.stacks-on .tab-strip .tab .tab-group-indicator .tab-indicator {
+  border-top: 1px solid transparent !important;
+}
+
+/*Hide unread indicator */
+#tabs-container.right .tab-position .tab.unread, #tabs-container.left .tab-position .tab.unread { 
+  background-image: none;
+}
+
+/* Two Rows of Text (could be improved) */
+.tab-position .tab:not(.tab-group) {height: 30px;} 
+.tab-position .tab .title {
+	display: grid;
+	line-height: 10px;
+	height: 20px;
+	white-space: normal;
+	margin-top: -2px
+} 	
+
+/* Separator between tabs for accessibility */
+#tabs-container.top .tab-position .tab,
+#tabs-container.bottom .tab-position .tab {
+	border-right: 1px groove var(--colorHighlightBgDark);
+}
+#tabs-container.right .tab-position .tab,
+#tabs-container.left .tab-position .tab {
+	border-bottom: 1px groove var(--colorHighlightBgDark);
+}
+#tabs-container.right .tab-position .tab .title,
+#tabs-container.left .tab-position .tab .title {-webkit-mask-image: none;} 
+
+/* ALLY: A simple visual indicator (*) for [Vertical] Pinned Tabs */
+#tabs-container.right .tab-position .tab.pinned span.title::before,
+#tabs-container.left .tab-position .tab.pinned span.title::before {content: '* ';}
+
+/* Hide thumbnail+tooltip for single tabs ONLY (shown on stacks) */
+#vivaldi-tooltip .tooltip .tab-solo {display: none;}
+
+/* Tooltip without thumbnail on stacks too */
+div#vivaldi-tooltip .tooltip .tooltip-item .thumbnail-image {
+    display: none; /* https://forum.vivaldi.net/post/416458 */
+}
+#vivaldi-tooltip .tooltip .tab-group .tooltip-item {height: 44px;}
+
+/* ALLY: Add a background to site icons (could be improved) */
+#tabs-container .favicon {background: white; /*transform: scale(1.3) !important;*/}
+#tabs-container .favicon span svg {filter: drop-shadow(1px 1px 1px black); /*for sd icon*/
+.spinner {filter: invert(1); background: none !important;}
