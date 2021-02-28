@@ -10,3 +10,5 @@ You agree to use anything contained here at your own risk.
 The code is usually updated on Vivaldi Snapshot when it reaches [Release Candidate](https://forum.vivaldi.net/search?term=RC&in=titles&matchWords=all&categories%5B%5D=83&sortBy=topic.timestamp&sortDirection=desc&showAs=topics) status (RC) so it should work with latest [Vivaldi Stable](https://vivaldi.com/download/) too.
 
 Few lines are actually tailored around my Vivaldi installation but most code should work with any setup vivaldi installation. Only pick the code you actually need. If in doubt, ask to the great [modding community](https://forum.vivaldi.net/category/52/modifications) for help.
+
+I've also started to split my "big" custom.css - which probably will be removed soon - in few "smaller" categorized .css to make easier to keep the code clean :)
