@@ -6,7 +6,7 @@ If you tend to load several mods at once, you may like this [mod loader](https:/
 ## My favourite JS mods 
 - [Add to (Native) Adblocker](https://forum.vivaldi.net/topic/45735/click-to-add-blocking-list)
 - [Buttons classes](https://forum.vivaldi.net/topic/36028/class-name-buttons?page=1)
-- [Custom hooks](https://github.com/Sporif/CustomHooks)
+- [Custom hooks](https://github.com/Sporif/CustomHooks) *Unmaintained*
 - [Custom toolbar for webpanels](https://forum.vivaldi.net/topic/45812/custom-toolbar-for-web-panels)
 - [Historyclock](https://github.com/luetage/vivaldi_modding/blob/master/history-clock.js)
 - [Import Export Search Engines](https://github.com/luetage/vivaldi_modding/blob/master/backup-search-engines.js)
