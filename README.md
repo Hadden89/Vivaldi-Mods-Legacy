@@ -12,3 +12,6 @@ The code is usually updated on Vivaldi Snapshot when it reaches [Release Candida
 Few lines are actually tailored around my Vivaldi installation but most code should work with any setup vivaldi installation. Only pick the code you actually need. If in doubt, ask to the great [modding community](https://forum.vivaldi.net/category/52/modifications) for help.
 
 I've also started to split my "big" custom.css - which probably will be removed soon - in few "smaller" categorized .css to make easier to keep the code clean :)
+
+# And what about JS mods ?
+As I'm really unexperienced when it comes to Javascripts mods, I limit to link most useful mods in a [separated JS readme file](https://github.com/Hadden89/Vivaldi_mods/blob/master/Javascript_mods.md). Enjoy vivaldi and its community. [Join to the forum](https://forum.vivaldi.net) if you didn't that yet ;)
