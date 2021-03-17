@@ -1,5 +1,4 @@
-// Move Sync&Trash to Urlfield 
-// Updated to 3.6.2165.32
+// Move Sync&Trash to Urlfield -- Updated to 3.6.2165.32
 
 setTimeout(function wait() {
     var sync = document.querySelector(".toolbar.toolbar-tabbar.sync-and-trash-container");

@@ -1,5 +1,4 @@
-// Tnx to Luetage which actually did this for me ^^
-// https://github.com/luetage
+// Tnx to Luetage who originally did this for me ^^ --  https://github.com/luetage
 
 (function () {
 

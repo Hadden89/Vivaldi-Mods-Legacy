@@ -1,0 +1,41 @@
+/* Multi Row Mod (2.7 will need more love) */
+.dials .dial .button-title { 
+  text-overflow: clip; white-space: pre-wrap;
+  height: 162%; line-height: 90%; border-radius: 0px;
+}
+.dials .dial .editable-title-container {height: 25px;} /*smallfix*/
+.dials .dial .editable-title-container > input,
+.dials .dial .editable-title-container > input:active {
+  height: 172%; /*Adapt edit box to multirows*/
+  border-radius: 0px !important; /*enforce squared thumbs */
+}
+
+/* Nyan Mod (need a small check) */
+.button-startpage:after {opacity: 0;} /* remove | */
+.startpage .button-startpage {background-color: rgba(0, 0, 0, 0.81);}
+.startpage-navigation {
+  background-image: url(./res/nyan.png); /*Nyan Mod*/
+  background-size: 150px; /* Fix Nyan Size */
+}
+
+.OmniDropdown-Label {opacity: .8;} /* Text more readable on omnidrop */
+
+ /*Striped loading url mod from Raed revived */ 
+.UrlBar-AddressField  .pageload-indicator {
+    background-size: 10px 10px; /*you may want to tweak these*/
+    background-image: linear-gradient(-45deg, rgba(255, 255, 255, .70) 25%, transparent 25%, 
+transparent 50%, rgba(255, 255, 255, .70) 50%, rgba(255, 255, 255, .70) 75%, transparent 75%, 
+transparent);
+}
+
+.cb-form-row:nth-of-type(4), .cb-form-row:nth-of-type(5) {
+	display: none; /* Hide description&Nickname and... */
+} 
+.addbookmark-cardwrapper .dialog-content{ min-height: auto;} /* ...adapt box height */
+
+/* Add Bookmark: Only show preview on hover */
+.create-bookmark > .button-popup .thumbnail-image {max-height: 5px;}
+.create-bookmark > .button-popup .thumbnail-image:hover {max-height: 170px; transition-delay: .3s;}
+/* Fix the thumb bug */
+.addbookmark-cardwrapper .thumbnail-image img,
+.addbookmark-cardwrapper .thumbnail-image svg {width: 100%}  

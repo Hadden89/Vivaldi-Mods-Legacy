@@ -7,12 +7,46 @@
   background-image: url(./res/hcomb_dark.png);
   background-size: 50%;
 }
-#switch > button, .addwebpanel-wrapper {
-  background-color: var(--colorBgAlpha);
+#switch > button, .addwebpanel-wrapper {background-color: var(--colorBgAlpha);}
+
+#switch > button svg, .webviewbtn img {transform: scale(1.4);} /* bigger panel icons */
+.addwebpanel.panelbtn svg {transform: scale(2.6);} /* bigger plus icon */
+
+/* Icons from FA [under CC-BY] (https://fontawesome.com/license) */
+.webviewbtn[title*="chrome://about"] img {display: none;} 
+.webviewbtn[title*="chrome://about"]:after { /* https://forum.vivaldi.net/post/453911 */	
+  content: ''; display: inline-block;
+  width: 25px; height: 25px;
+  background: var(--colorFgFaded);
+  -webkit-mask-image: url(./res/link.svg); /* https://fontawesome.com/icons/link?style=solid */
+  -webkit-mask-repeat: round;
+}
+.webviewbtn[title*="chrome://flags"] img {display: none;} 
+.webviewbtn[title*="chrome://flags"]:after { /* https://fontawesome.com/icons/flask?style=solid */
+  content: ''; display: inline-block;
+  width: 25px; height: 25px;
+  background: var(--colorFgFaded);
+  -webkit-mask-image: url(./res/flask.svg);
+  -webkit-mask-repeat: round;
+}
+.webviewbtn[title*="chrome://settings/content/cookies"] img {display: none;}
+.webviewbtn[title*="chrome://settings/content/cookies"]:after {
+  content: ''; display: inline-block;
+  width: 25px; height: 25px;
+  background: var(--colorFgFaded);
+  -webkit-mask-image: url(./res/cog.svg); /* https://fontawesome.com/icons/cog?style=solid */
+  -webkit-mask-repeat: round;
+}
+/*.theme-dark*/ #switch .webviewbtn img  {
+	background: transparent !important; /* remove background */
+	filter: drop-shadow(2px 0 0 rgba(246, 246, 246, 0.25)) /* fix poor icons? */
+	drop-shadow(1px 0 0 rgba(246, 246, 246, 0.25)) 
+	drop-shadow(0 2px 0 rgba(246, 246, 246, 0.25)) 
+	drop-shadow(0 1px 0 rgba(246, 246, 246, 0.25)) !important;
 }
 #switch button.preferences {margin-top: 0;} /* Gear icon after plus button */
 
-/* Hide tex header on internal panels but... */
+/* Hide text header on internal panels but... */
 .panel > header h1 {display: none;} 
 /*.panel > header {padding-top: 0; padding-bottom: 0;}*/
 .webpanel-header h1 {display: initial !important;} /* ...show it on webpanels */

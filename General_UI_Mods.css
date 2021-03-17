@@ -1,3 +1,14 @@
+ /* an old mod */
+/*
+.toolbar-statusbar {
+    background: var(--colorAccentBg);
+    background-image: url(./res/bub.png) !important;
+}
+.toolbar.toolbar-droptarget.toolbar-statusbar.toolbar-medium button {background-color: var(--colorBgAlpha);}
+.button-toolbar.sync-status {background-color: #000000 !important;}
+.page-zoom-controls {background-color: var(--colorBgAlpha);}
+*/
+
 /* ALLY: Make borders to use the higlight color */
 .cardview input[type=text], .cardview textarea,
 button, input, select, textarea,
@@ -12,8 +23,15 @@ input[type=checkbox], input[type=radio] {border-color: var(--colorBorderHighligh
 .webpage-button {border-color: var(--colorBorderHighlight) !important;} 
 .button-toolbar > button:disabled  {border-color: var(--colorBorderHighlight); opacity: .7;}
 
+/* Borders for markdown buttons mod */
+/* Useful if you use this: https://forum.vivaldi.net/post/407242 */
+.NotesEditor > .toolbar .notes-custom {
+  border-color: var(--colorBorderHighlight) !important;
+  margin-right: 5px !important; margin-bottom: 5px !important;
+}
+
 /* ALLY: Bigger and easier to read vivaldi://themecolors */
-.theme-test {zoom: 150%;} /* please add a zoom button there */
+.theme-test {zoom: 150%;} /* waiting for zoom controls */
 .theme-test input {
   color: var(--colorFg) !important;
   background-color: var(--colorBg) !important;
@@ -25,11 +43,12 @@ input[type=checkbox], input[type=radio] {border-color: var(--colorBorderHighligh
 /* ...show it when UI is NOT native (eg: Guest Profiles) */
 #browser:not(.native) #header {display: block;} 
 
-/* Status Bar On Top Mod */ 
+.siteinfo-text {display: none;} /* Hide EV text */
+
+/* Status Bar On Top Mod *//*tnx to sjudenim and potmeklecbohdan for their help*/
 #header {order: -1;} 
 .toolbar-statusbar {order: -1; border: none !important;} 
 .toolbar-statusbar {background: var(--colorAccentBg);}
-#panels-container .toolbar-statusbar {background: initial;} /*for panel mod*/
 .button-popup {
     bottom: unset !important;
     top: 32px;
@@ -51,9 +70,10 @@ input[type=checkbox], input[type=radio] {border-color: var(--colorBorderHighligh
     border-top: 10px solid var(--colorBgDark);
 }
 .button-popup .button-popup-wrapper {height: fit-content;}
-
 .button-popup h2 {text-align: center}
-
 .button-popup-wrapper {background-color: var(--colorBgDark);}
 .button-toolbar>button>span+.button-title,
 .button-toolbar>button.button-textonly {padding-top: 2px}
+
+/* For panel mod https://forum.vivaldi.net/post/205101 */
+#panels-container .toolbar-statusbar {background: initial;}

@@ -1,3 +1,12 @@
+/* Fix for vbutton.js */
+.toolbar.toolbar-tabbar.sync-and-trash-container {max-width: 60px}
+
+/* Urlfield: Hide unused buttons on guest profile (no native mode)*/
+:not(.native) .button-toolbar.button-narrow.rewind,
+:not(.native) .button-toolbar.button-narrow.fast-forward,
+:not(.native) .button-toolbar.home
+/*:not(.native) .iconmenu-container.searchfield*/ {display: none;}
+
 /* Crazy VB-39040 workaround for CookieAutoDelete */
 .extension-popup.top > webview[src="chrome-extension://fhcgjolkccmbidfldomjliifgaodjagh/popup/popup.html"] {
 	min-width: 640px; min-height: 402px; /* Set the minimum extension popup get */
@@ -18,9 +27,10 @@
 .toolbar-extensions.toolbar-extensions.toolbar-extensions .button-toolbar > button > img {
 	transform: scale(1.3);
 }
-
-/* Gives a custom icon to the webpanel */
-.webviewbtn[title*="chrome://about/"] img {content: url(./res/v_url_ico.png);}
+/* Normalize search button too */
+.button-toolbar button[title='Show Search Field'] span svg path {
+	transform: scale(1.3); transform-origin: center;
+}
 
 /* Urlbar BEFORE buttons (moved on right) */
 .UrlBar-AddressField {order: -1;} /* please Vivaldi make them movable */
@@ -32,6 +42,7 @@
 .button-toolbar.ngpampappnmepgilojfohadhhmbhlaek {display: none;} /*IDM*/
 
 /* Rounded (IE11) urlfield buttons: NEED buttonclass.js */
+/* Source: https://www.flaticon.com/authors/chris-veigt @ http://www.flaticon.com/ */
 .button-toolbar.back button span svg path { 
   d: path('M293.004,78.525C249.64,3.436,153.62-22.295,78.531,21.061C3.436,64.411-22.296,160.443,21.068,235.542     c43.35,75.087,139.375,100.822,214.465,57.467C310.629,249.648,336.365,153.621,293.004,78.525z M219.836,265.802     c-60.075,34.685-136.894,14.114-171.576-45.969C13.57,159.762,34.155,82.936,94.232,48.253     c60.071-34.683,136.894-14.099,171.578,45.979C300.495,154.308,279.908,231.118,219.836,265.802z M211.986,141.328h-65.491     l17.599-17.603c6.124-6.129,6.124-16.076,0-22.197c-6.129-6.133-16.078-6.133-22.207,0l-44.402,44.4     c-6.129,6.131-6.129,16.078,0,22.213l44.402,44.402c6.129,6.128,16.078,6.128,22.207,0c6.124-6.131,6.124-16.077,0-22.201     l-17.606-17.601h65.499c8.669,0,15.697-7.041,15.697-15.701v-0.008C227.683,148.353,220.655,141.328,211.986,141.328z');
   transform: scale(.08); 
