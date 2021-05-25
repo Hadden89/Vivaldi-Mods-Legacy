@@ -1,3 +1,6 @@
+# Readme (please)
+## I made a [new repo for Vivaldi 3.8+](https://github.com/Hadden89/Vivaldi_Mods_3.8) but what you find here is still ok for Vivaldi 3.7 (probably I should archive this ^^).
+
 # Vivaldi_Mods 
 What is Vivaldi? A [new browser](https://vivaldi.com) launched several years ago based on Blink (actually a great engine) to be the spirtual successor of Opera [Presto](https://en.wikipedia.org/wiki/Presto_(browser_engine)) which development was halted with the acquistion of the company. Why is cool? Where all the browser now tends to look alike the same, Vivaldi point to be unique, is user-centric and has a great developers and community support behind it.
 
